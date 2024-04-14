@@ -1,0 +1,60 @@
+nav {
+  height: 100px;
+  background-color: #d7d7df;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  font-family: monospace;
+  border-bottom: 3px solid rgb(1, 2, 36);
+
+  .wrapper {
+    font-size: 18px;
+    align-items: stretch;
+    justify-content: space-between;
+    font-family: monospace;
+    flex: 1;
+    max-width: $wrapper-width;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .logo {
+      background-image: url("../images/SaERv2IconAbr.png");
+      background-size: auto 80%;
+      background-position: 10px 50%;
+      background-repeat: no-repeat;
+      flex: 0.7;
+
+      height: 100%;
+    }
+
+    .links {
+      display: flex;
+      justify-content: right;
+      padding: 40px 20px;
+      flex: 1;
+
+      a {
+        color: #000;
+        border-right: 2px $site-accent solid;
+        padding: 0 17px;
+        font-weight: bold;
+        text-decoration: none;
+        text-decoration-thickness: 3px !important;
+      }
+      a:last-of-type {
+        border-right: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        font-style: italic;
+      }
+      .active {
+        color: $site-accent;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+      }
+    }
+  }
+}
