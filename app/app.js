@@ -9,7 +9,7 @@ function initListeners() {
 
 $(document).ready(function () {
   // loadContentAndInit("homeContent");
-  loadContent("contact");
+  loadContent("home");
   initListeners();
 });
 
