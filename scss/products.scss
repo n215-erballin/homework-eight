@@ -1,0 +1,133 @@
+.products {
+  .hero {
+    background-image: url("../images/AdobeStock_sims.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+
+    h1 {
+      margin: 0;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.719);
+      padding: 20px 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    h2 {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.842);
+      background-color: rgba(0, 0, 0, 0.719);
+      cursor: help;
+      padding: 0px 7px;
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+  .content {
+    .sidebars {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: 0;
+
+      .right,
+      .left {
+        padding: 10px 10px;
+      }
+
+      .left {
+        flex: 1;
+
+        .donateBtn {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          div {
+            background-color: rgb(31, 223, 31);
+            border: 5px outset black;
+            text-align: center;
+            cursor: pointer;
+            padding: 20px 100px;
+            h1 {
+              margin: 0;
+            }
+          }
+          div:hover {
+            background-color: rgb(166, 241, 166);
+          }
+          div:active {
+            border: 5px inset black;
+          }
+        }
+      }
+      .right {
+        border-left: 2px solid black;
+        flex: 0.5;
+
+        .title {
+          border-bottom: 2px solid black;
+          margin-bottom: 4px;
+        }
+
+        .events {
+          display: flex;
+          align-items: stretch;
+          justify-content: space-between;
+          flex-direction: column;
+          gap: 5px;
+
+          .entry {
+            padding: 5px 0;
+            border: 2px outset white;
+            background-color: $site-accent-alt-faded-white;
+            border-bottom: 2px rgba(0, 0, 0, 0.521) solid;
+            cursor: pointer;
+            display: flex;
+            align-items: stretch;
+            justify-content: space-evenly;
+            padding-left: 5px;
+            gap: 5px;
+            i {
+              flex: 0.1;
+              font-size: 21px;
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+            }
+            div {
+              flex: 1;
+            }
+            h1 {
+              font-size: 17px;
+              margin-bottom: 0;
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+            }
+            h2 {
+              font-size: 13px;
+              margin-bottom: 0;
+              opacity: 0.45;
+            }
+          }
+          .entry:hover {
+            border: 2px outset white;
+            background-color: $site-accent-alt-faded-white-hover;
+          }
+          .entry:active {
+            border: 2px inset white;
+          }
+        }
+      }
+    }
+    hr {
+      margin: 20px 0;
+      border: 1px inset rgba(0, 0, 0, 0.336);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.about {
+  .hero {
+    background-image: url("../images/AdobeStock_girlonpc.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+
+    h1 {
+      margin: 0;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.719);
+      padding: 20px 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    h2 {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.842);
+      background-color: rgba(0, 0, 0, 0.719);
+      cursor: help;
+      padding: 0px 7px;
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+  .content {
+    hr {
+      border: 1px solid black;
+      margin: 10px 0;
+    }
+    padding: 0 15px;
+    .logo-full {
+      background-image: url("../images/SaERv2IconFull.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      aspect-ratio: 15988 / 1796;
+      background-origin: content-box;
+      padding: 10px;
+      box-sizing: content-box;
+      border-bottom: 5px solid #323232;
+      margin-bottom: 13px;
+    }
+    h1 {
+      margin: 10px 0px;
+    }
+    p {
+      font-size: 18px;
+    }
+
+    ul {
+      padding-left: 30px;
+
+      li {
+        padding-bottom: 3px;
+        font-weight: bold;
+      }
+    }
+  }
+}

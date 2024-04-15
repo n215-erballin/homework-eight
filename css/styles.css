@@ -87,6 +87,267 @@ nav .wrapper .links .active {
   min-height: 100%;
 }
 
+.products .hero {
+  background-image: url("../images/AdobeStock_sims.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-direction: column;
+}
+.products .hero h1 {
+  margin: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 20px 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.products .hero h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.842);
+  background-color: rgba(0, 0, 0, 0.719);
+  cursor: help;
+  padding: 0px 7px;
+  font-family: "Courier New", Courier, monospace;
+}
+.products .content .sidebars {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0;
+}
+.products .content .sidebars .right,
+.products .content .sidebars .left {
+  padding: 10px 10px;
+}
+.products .content .sidebars .left {
+  flex: 1;
+}
+.products .content .sidebars .left .donateBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.products .content .sidebars .left .donateBtn div {
+  background-color: rgb(31, 223, 31);
+  border: 5px outset black;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px 100px;
+}
+.products .content .sidebars .left .donateBtn div h1 {
+  margin: 0;
+}
+.products .content .sidebars .left .donateBtn div:hover {
+  background-color: rgb(166, 241, 166);
+}
+.products .content .sidebars .left .donateBtn div:active {
+  border: 5px inset black;
+}
+.products .content .sidebars .right {
+  border-left: 2px solid black;
+  flex: 0.5;
+}
+.products .content .sidebars .right .title {
+  border-bottom: 2px solid black;
+  margin-bottom: 4px;
+}
+.products .content .sidebars .right .events {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+}
+.products .content .sidebars .right .events .entry {
+  padding: 5px 0;
+  border: 2px outset white;
+  background-color: rgb(175, 194, 255);
+  border-bottom: 2px rgba(0, 0, 0, 0.521) solid;
+  cursor: pointer;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  padding-left: 5px;
+  gap: 5px;
+}
+.products .content .sidebars .right .events .entry i {
+  flex: 0.1;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.products .content .sidebars .right .events .entry div {
+  flex: 1;
+}
+.products .content .sidebars .right .events .entry h1 {
+  font-size: 17px;
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.products .content .sidebars .right .events .entry h2 {
+  font-size: 13px;
+  margin-bottom: 0;
+  opacity: 0.45;
+}
+.products .content .sidebars .right .events .entry:hover {
+  border: 2px outset white;
+  background-color: rgb(205, 216, 255);
+}
+.products .content .sidebars .right .events .entry:active {
+  border: 2px inset white;
+}
+.products .content hr {
+  margin: 20px 0;
+  border: 1px inset rgba(0, 0, 0, 0.336);
+}
+
+.about .hero {
+  background-image: url("../images/AdobeStock_girlonpc.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-direction: column;
+}
+.about .hero h1 {
+  margin: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 20px 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.about .hero h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.842);
+  background-color: rgba(0, 0, 0, 0.719);
+  cursor: help;
+  padding: 0px 7px;
+  font-family: "Courier New", Courier, monospace;
+}
+.about .content {
+  padding: 0 15px;
+}
+.about .content hr {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+.about .content .logo-full {
+  background-image: url("../images/SaERv2IconFull.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 15988/1796;
+  background-origin: content-box;
+  padding: 10px;
+  box-sizing: content-box;
+  border-bottom: 5px solid #323232;
+  margin-bottom: 13px;
+}
+.about .content h1 {
+  margin: 10px 0px;
+}
+.about .content p {
+  font-size: 18px;
+}
+.about .content ul {
+  padding-left: 30px;
+}
+.about .content ul li {
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+
+.contact .hero {
+  background-image: url("../images/AdobeStock_contactAlt.jpeg");
+  background-size: cover;
+  background-position: 50% 54%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-direction: column;
+}
+.contact .hero h1 {
+  margin: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 20px 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.contact .hero h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.842);
+  background-color: rgba(0, 0, 0, 0.719);
+  cursor: help;
+  padding: 0px 7px;
+  font-family: "Courier New", Courier, monospace;
+}
+.contact .content {
+  padding: 0 15px 1px 15px;
+}
+.contact .content h1 {
+  margin: 10px 0px;
+}
+.contact .content p {
+  font-size: 18px;
+}
+.contact .content .contact-box {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: 80px;
+}
+.contact .content .contact-box h1 {
+  margin: 13px 0;
+}
+.contact .content .contact-box h5 {
+  padding: 20px 0 3px 0px;
+}
+.contact .content .contact-box textarea {
+  resize: vertical;
+  height: 100px;
+}
+.contact .content .contact-box textarea,
+.contact .content .contact-box input {
+  width: 90%;
+  max-width: 370px;
+  padding: 4px;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+.contact .content .contact-box .logo {
+  background-image: url("../images/SaERv2IconFull.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 15988/1796;
+  background-origin: content-box;
+  padding: 10px;
+  box-sizing: content-box;
+  border-bottom: 5px solid #323232;
+  margin-bottom: 13px;
+}
+
 .home .hero {
   background-image: url("../images/AdobeStock_serverRoom.jpeg");
   background-size: cover;
